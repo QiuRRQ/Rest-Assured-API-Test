@@ -1,0 +1,8 @@
+<suite name="registerTest" verbose="1">
+    <test name="Register test">
+        <classes>
+            <class name="Register.Register"></class>
+            <class name="Register.RegisterUnsucccessful"></class>
+        </classes>
+    </test>
+</suite>

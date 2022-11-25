@@ -1,0 +1,10 @@
+<suite name="usersTest" verbose="1">
+    <test name="users test">
+        <classes>
+            <class name="User.CreateUser"></class>
+            <class name="User.UpdateUser"></class>
+            <class name="User.LIstUser"></class>
+            <class name="User.SingleUser"></class>
+        </classes>
+    </test>
+</suite>

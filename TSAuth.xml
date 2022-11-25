@@ -1,0 +1,8 @@
+<suite name="authTest" verbose="1">
+    <test name="auth test">
+        <classes>
+            <class name="Auth.LoginSuccess"></class>
+            <class name="Auth.LoginUnSuccessful"></class>
+        </classes>
+    </test>
+</suite>

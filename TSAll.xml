@@ -1,0 +1,7 @@
+<suite name="test suite all" verbose="1">
+    <suite-files>
+        <suite-file path="TSAuth.xml"></suite-file>
+        <suite-file path="TSRegister.xml"></suite-file>
+        <suite-file path="TSUser.xml"></suite-file>
+    </suite-files>
+</suite>
