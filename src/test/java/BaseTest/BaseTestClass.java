@@ -20,7 +20,7 @@ public class BaseTestClass {
 
     @BeforeClass
     public void BaseTest(ITestContext context){
-        RestAssured.baseURI = "https://reqres.in";
+        RestAssured.baseURI = "https://api.punkapi.com/v2";
         this.globalContext = context;
     }
 }
