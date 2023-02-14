@@ -2,6 +2,7 @@ package StockBitAPITest;
 
 import BaseTest.BaseTestClass;
 import com.jayway.jsonpath.JsonPath;
+import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
@@ -16,7 +17,7 @@ public class JsonValidation extends BaseTestClass {
 
     @Test
     public void jsonSchemaValidation(){
-        RequestSpecification request = RestAssured.given();
+        RequestSpecification request = RestAssured.given().filter(new AllureRestAssured());
 
         String beerSchemaPath = "src\\resources\\schema\\beers.json";
 

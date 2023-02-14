@@ -1,14 +1,10 @@
 package StockBitAPITest;
 
 import BaseTest.BaseTestClass;
+import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
-import io.restassured.config.ObjectMapperConfig;
-import io.restassured.mapper.ObjectMapperType;
-import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import org.hamcrest.core.Is;
-import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -28,7 +24,8 @@ public class APITesting extends BaseTestClass {
 
     @Test(dataProvider = "data-per-page")
     public void getDataPageCoount(String perPage){
-        RequestSpecification request = RestAssured.given();
+        RequestSpecification request = RestAssured.given().filter(new AllureRestAssured());
+
         request.header("Content-Type", "application/json");
         Response response = request.get("/beers?page=2&per_page="+perPage);
         response.then().assertThat()
