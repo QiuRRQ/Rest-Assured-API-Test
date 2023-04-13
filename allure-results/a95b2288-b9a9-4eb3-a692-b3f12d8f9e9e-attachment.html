@@ -1,0 +1,42 @@
+<div>POST to http://localhost:8080/v1/login</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+{
+    &quot;password&quot;: &quot;ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f&quot;,
+    &quot;userDevice&quot;: {
+        &quot;appVersion&quot;: &quot;2.3.0+385&quot;,
+        &quot;deviceIdentifier&quot;: &quot;18f52d24c27a3f1c&quot;,
+        &quot;appName&quot;: &quot;endUser&quot;,
+        &quot;model&quot;: &quot;vivo 1938&quot;,
+        &quot;type&quot;: &quot;SmartPhone&quot;,
+        &quot;platform&quot;: &quot;Android&quot;
+    },
+    &quot;username&quot;: &quot;bye@rungel.net&quot;
+}    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;http://localhost:8080/v1/login&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;password&quot;: &quot;ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f&quot;,
+    &quot;userDevice&quot;: {
+        &quot;appVersion&quot;: &quot;2.3.0+385&quot;,
+        &quot;deviceIdentifier&quot;: &quot;18f52d24c27a3f1c&quot;,
+        &quot;appName&quot;: &quot;endUser&quot;,
+        &quot;model&quot;: &quot;vivo 1938&quot;,
+        &quot;type&quot;: &quot;SmartPhone&quot;,
+        &quot;platform&quot;: &quot;Android&quot;
+    },
+    &quot;username&quot;: &quot;bye@rungel.net&quot;
+}&#39;
+</div>

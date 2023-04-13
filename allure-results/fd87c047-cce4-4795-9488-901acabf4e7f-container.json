@@ -1,0 +1,1 @@
+{"uuid":"fd87c047-cce4-4795-9488-901acabf4e7f","name":"StockBitAPITest.JsonValidation","children":["4cf5be47-018a-4edd-86c0-2b82322a43e1"],"befores":[{"name":"BaseTest","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1676360588903,"stop":1676360588903}],"afters":[],"start":1676360583455,"stop":1676360590088}

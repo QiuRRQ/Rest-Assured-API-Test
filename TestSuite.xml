@@ -1,8 +1,8 @@
 <suite name="testSuite" verbose="1">
     <test name="test suites">
         <classes>
-            <class name="StockBitAPITest.APITesting"></class>
-            <class name="StockBitAPITest.JsonValidation"></class>
+            <class name="APITest.APITesting"></class>
+            <class name="APITest.JsonValidation"></class>
         </classes>
     </test>
 </suite>
