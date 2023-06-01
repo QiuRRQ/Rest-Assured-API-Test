@@ -1,5 +1,9 @@
-C:\Users\aziz\IdeaProjects\sample project\src\test\java\BaseTest\BaseTestClass.java
-C:\Users\aziz\IdeaProjects\sample project\src\test\java\mobileAutomate\setUps\Capabilities.java
-C:\Users\aziz\IdeaProjects\sample project\src\test\java\StockBitAPITest\APITesting.java
-C:\Users\aziz\IdeaProjects\sample project\src\test\java\mobileAutomate\steps\DoPositiveTest.java
-C:\Users\aziz\IdeaProjects\sample project\src\test\java\StockBitAPITest\JsonValidation.java
+D:\surplus techincal test\SurplusTechnicalTest\src\test\java\APITest\BaseTest\BaseTestClass.java
+D:\surplus techincal test\SurplusTechnicalTest\src\test\java\APITest\testsuites_method_test.java
+D:\surplus techincal test\SurplusTechnicalTest\src\test\java\MobileTest\FeatureSteps\BaseClassDefinition.java
+D:\surplus techincal test\SurplusTechnicalTest\src\test\java\MobileTest\FeatureSteps\Login\LoginTest.java
+D:\surplus techincal test\SurplusTechnicalTest\src\test\java\MobileTest\FeatureSteps\RunCucumberTests.java
+D:\surplus techincal test\SurplusTechnicalTest\src\test\java\APITest\stepDefinition\post_method_test\post_method_test_step.java
+D:\surplus techincal test\SurplusTechnicalTest\src\test\java\APITest\stepDefinition\get_method_test\get_method_test_step.java
+D:\surplus techincal test\SurplusTechnicalTest\src\test\java\APITest\testcase_post_method_test.java
+D:\surplus techincal test\SurplusTechnicalTest\src\test\java\APITest\testcase_get_method_test.java

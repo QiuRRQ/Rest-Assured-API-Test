@@ -1,3 +1,9 @@
-StockBitAPITest\JsonValidation.class
-BaseTest\BaseTestClass.class
-StockBitAPITest\APITesting.class
+APITest\testcase_get_method_test.class
+APITest\stepDefinition\get_method_test\get_method_test_step.class
+APITest\stepDefinition\post_method_test\post_method_test_step.class
+MobileTest\FeatureSteps\RunCucumberTests.class
+APITest\BaseTest\BaseTestClass.class
+MobileTest\FeatureSteps\BaseClassDefinition.class
+APITest\testsuites_method_test.class
+APITest\testcase_post_method_test.class
+MobileTest\FeatureSteps\Login\LoginTest.class

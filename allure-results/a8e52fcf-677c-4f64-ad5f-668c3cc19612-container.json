@@ -1,1 +1,0 @@
-{"uuid":"a8e52fcf-677c-4f64-ad5f-668c3cc19612","name":"APITest.JsonValidation","children":["e4dbbca6-9d89-4c06-b8f2-f46348eee1c0"],"befores":[{"name":"BaseTest","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1677207152183,"stop":1677207152571}],"afters":[],"start":1677207152156,"stop":1677207153749}
