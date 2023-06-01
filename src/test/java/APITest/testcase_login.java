@@ -9,8 +9,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src\\test\\java\\APITest\\features\\login.feature",
-        glue = {"APITest.stepDefinition.login"},
-        monochrome = true
+        glue = {"APITest.stepDefinition.login"}
 
 )
 public class testcase_login {
